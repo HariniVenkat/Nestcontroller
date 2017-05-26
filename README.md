@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# Nestcontroller
+project for nested routing in rails
+>>>>>>> 3406332bf93f4f1812474a80b5e094373229634a
