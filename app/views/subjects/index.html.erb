@@ -1,0 +1,19 @@
+<h1>Subjects#index</h1>
+<p>Find me in app/views/subjects/index.html.erb</p>
+<ul id = "subjects">
+   <% @subjects.each do |c| %>
+   <li><%=link_to c.subject_name, :action => 'index' %>
+
+
+
+
+   
+<!--call the functions in index....flow goes from controller to view...not from view to controller....
+
+common accessing done in index not show....from index to show...not reverse.........important point....
+
+ -->
+   </li>
+   <% end %>
+</ul>
+

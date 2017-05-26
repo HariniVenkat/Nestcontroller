@@ -1,0 +1,16 @@
+<% if @books.blank? %>
+<p>There are not any books currently in the system.</p>
+<% else %>
+<p>These are the current books in our system</p>
+
+<ul id = "books">
+   <% @books.each do |c| %>
+   <li><%= link_to c.book_name %>
+
+<!--this show is different.....it is used to fetch and show...but diff scenario in book and subjects... -->
+
+
+   </li>
+   <% end %>
+</ul>
+<% end %>
